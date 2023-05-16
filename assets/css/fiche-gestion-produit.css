@@ -1,11 +1,11 @@
 /* Le code CSS de la démo */
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?rd1dng');
-  src:  url('../fonts/icomoon.eot?rd1dng#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?rd1dng') format('truetype'),
-        url('../fonts/icomoon.woff?rd1dng') format('woff'),
-        url('../fonts/icomoon.svg?rd1dng#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?6o39lc');
+  src:  url('../fonts/icomoon.eot?6o39lc#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?6o39lc') format('truetype'),
+        url('../fonts/icomoon.woff?6o39lc') format('woff'),
+        url('../fonts/icomoon.svg?6o39lc#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -26,29 +26,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-user:before {
-  content: "\e900";
-}
-.icon-search:before {
-    content: "\e901";
-    margin-left: 259px;
-    position: absolute;
-    margin-top: 10px;
-    font-size: 2.1rem;
-}
-.icon-display:before {
+.icon-cogs:before {
   content: "\e902";
 }
-.icon-phone:before {
+.icon-shopping-basket:before {
+  content: "\e900";
+}
+.icon-pen:before {
   content: "\e903";
 }
-.icon-clock:before {
-  content: "\e904";
+.icon-home:before {
+  content: "\e901";
 }
-.icon-data:before {
-  content: "\e905";
+.icon-price-tags:before {
+  content: "\e936";
 }
-.icon-shop:before {
-  content: "\e906";
+.icon-bin2:before {
+  content: "\e9ad";
 }
-
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-checkbox-checked:before {
+  content: "\ea52";
+}
